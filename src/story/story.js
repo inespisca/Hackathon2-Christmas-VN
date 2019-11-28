@@ -1,10 +1,11 @@
 // bg
-const microphone = require("./bg/microphone.jpeg");
+const santaclaus = require("./bg/santaclaus.jpg");
 // speakers
 const Ines = "Inês";
 const Woman = "Woman";
 const Santa = "Santa Claus";
 const Narrator = "";
+const You = "You";
 // sprites
 const bn = require("./sprites/block-neutral.png");
 const bh = require("./sprites/block-happy.png");
@@ -12,9 +13,9 @@ const bp = require("./sprites/block-pout.png");
 
 let story = [
   {
-    bg: microphone,
+    bg: santaclaus,
     speaker: Ines,
-    text: "Hey [name], nice to meet you!"
+    text: "Hey, nice to meet you!"
   },
   {
     text: "My name is Inês and today I’m on a mission to look for Santa Claus!"
@@ -67,7 +68,7 @@ let story = [
   },
   { 
     speaker: Santa,
-    text: "Inês! [Name]! You recognized me!" 
+    text: "Inês! You recognized me!" 
   },
   { 
     text: "Because this was a great year, the both of you deserve your gifts!" 
@@ -182,12 +183,12 @@ let story = [
     text: "I would have a gift for you but you are in my naughty list because you thought I wasn’t Santa." 
   },
   { 
-    speaker: Narrator, //needs to be changed to the person's name later
+    speaker: You,
     text: "I want a gift too!" 
   },
   { 
     speaker: Santa,
-    text: "[name], you’re who told Inês I wasn’t Santa. You are definitely on my naughty list."
+    text: "You’re who told Inês I wasn’t Santa. You are definitely on my naughty list."
   },
   {
     speaker: Narrator,
