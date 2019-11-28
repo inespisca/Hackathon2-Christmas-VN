@@ -26,7 +26,7 @@ let story = [
   },
   { 
     choicesExist: true,
-    receiveJump: "yes/no"
+    receiveJump: "option1"
   },
   {
     routeBegins: "Yes",
@@ -41,10 +41,12 @@ let story = [
   },
   { 
     choicesExist: true, 
-    receiveJump: "SantaIsAMan"
+  },
+  {
+    receiveJump: "option2"
   },
   { 
-    routeBegins: "Not really, isn’t Santa Claus a man? ",
+    routeBegins: "Not really, isn’t Santa Claus a man?",
     text: "Yeah, you’re right." 
   },
   {
@@ -53,6 +55,12 @@ let story = [
 
   { 
     text: "But I guess the real Santa is a man." 
+  },
+  { 
+    choicesExist: true, 
+  },
+  {
+    receiveJump: "option3"
   },
  
   //{
