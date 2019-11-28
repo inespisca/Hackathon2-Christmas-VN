@@ -102,6 +102,7 @@ class App extends Component {
       index: index,
       bg: story[index].bg,
       bgm: story[index].bgm,
+      speaker: story[index].speaker,
       choicesExist: story[index].choicesExist,
       sprite: story[index].sprite,
       spriteEffect: story[index].spriteEffect,
