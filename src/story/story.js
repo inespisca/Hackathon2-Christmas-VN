@@ -111,7 +111,7 @@ let story = [
   },
   { 
     speaker: Narrator,
-    text: "You failed to help Inês to find Santa." 
+    text: "You failed to help Inês finding Santa." 
   },
   { 
     text: "Welcome to bad end 1. Click again to return to the menu.",

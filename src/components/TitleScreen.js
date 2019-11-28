@@ -5,7 +5,7 @@ function TitleScreen(props) {
     <div className="overlay" id="title-overlay">
       <div id="title-screen-header">
         <div id="logo">Hackathon 2 - Christmas</div>
-        <div id="subtitle">A Visual Novel written and coded by Inês Oliveira,</div>
+        <div id="subtitle">A Visual Novel written, doodled and coded by Inês Pisca Oliveira,</div>
         <div id="subtitle">Wild Code School, Lisbon (September 2019 fulltime)</div>
         <ul id="menu">
           <li>

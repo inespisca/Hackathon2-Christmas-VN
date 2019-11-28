@@ -6,7 +6,6 @@ import TitleScreen from "./components/TitleScreen";
 import ChoiceMenu from "./components/ChoiceMenu";
 import RenderFrame from "./components/RenderFrame";
 import MenuButtons from "./components/MenuButtons";
-import YourName from "./components/YourName";
 import "./styles/container.css";
 import "./styles/choicesoverlay.css";
 import "./styles/effects.css";
