@@ -2,7 +2,7 @@
 const microphone = require("./bg/microphone.jpeg");
 // speakers
 const Ines = "Inês";
-const Woman = "Woman who isn't Santa";
+const Woman = "Woman";
 const Santa = "Santa Claus";
 const Narrator = "";
 // sprites
@@ -106,7 +106,14 @@ let story = [
 // Bad end 1
   { 
     routeBegins: "No",
-    text: "Alright, thank you anyway. I’ll go ask somebody else then.",
+    text: "Alright, thank you anyway. I’ll go ask somebody else then."
+  },
+  { 
+    speaker: Narrator,
+    text: "You failed to help Inês to find Santa." 
+  },
+  { 
+    text: "Welcome to bad end 1. Click again to return to the menu.",
     jumpTo: "title-screen"
   },
 
@@ -133,7 +140,10 @@ let story = [
   },
   { 
     speaker: Narrator,
-    text: "This isn’t a bad end but it feels like one.", 
+    text: "This isn’t a bad end but it feels like one.",
+  },
+  {
+    text: "This path is over. Click again to go back to the menu.",
     jumpTo: "title-screen"
   },
   // Bad end 3
@@ -177,7 +187,14 @@ let story = [
   },
   { 
     speaker: Santa,
-    text: "[name], you’re who told Inês I wasn’t Santa. You are definitely on my naughty list.",
+    text: "[name], you’re who told Inês I wasn’t Santa. You are definitely on my naughty list."
+  },
+  {
+    speaker: Narrator,
+    text: "You and Inês didn't get gifts."
+  },
+  {
+    text: "This is the 3rd bad end. Click one more time to return to the menu.",
     jumpTo: "title-screen"
   },
 
