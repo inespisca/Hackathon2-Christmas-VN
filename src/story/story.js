@@ -116,7 +116,7 @@ let story = [
 
 // Bad end 2
   { 
-    routeBegins: "It’ll happen like it did with the woman",
+    routeBegins: "Oh you’re right, she could be Santa!",
     text: "Thank you! I’ll go ask her if she is Santa",
   },
   { 
