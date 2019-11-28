@@ -9,7 +9,6 @@
   color: black;
   transform: translate(-50%, 0);
   background-color: rgba(250, 250, 250, 0.9);
-  background-image: linear-gradient(#61d1d1 1px, transparent 1px);
   background-size: 100% 33.33%;
   width: 880px;
   height: 130px;
@@ -44,17 +43,17 @@
 }
 
 .speaker {
-  background: #06beb6; /* fallback for old browsers */
+  background: orange; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #48b1bf,
-    #06beb6
+    orange,
+    orange
   ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #4c9ea9, #429494);
+  background: linear-gradient(to right, orange, orange);
   border-radius: 30px;
   position: absolute;
   bottom: 129px;
-  color: white;
+  color: black;
   text-align: center;
   padding-top: 8px;
   margin-left: -35px;
@@ -79,6 +78,6 @@
   width: 0;
   height: 0;
   border-left: 11px solid transparent;
-  border-top: 13px solid #4c9ea9;
+  border-top: 13px solid orange;
   border-right: 11px solid transparent;
 }
