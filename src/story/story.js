@@ -37,9 +37,7 @@ let story = [
     text: "Finding Santa won’t be easy but I believe we can do it!" 
   },
   { 
-    text: "Do you think that woman over there is Santa Claus?" 
-  },
-  {
+    text: "Do you think that woman over there is Santa Claus?",
     receiveJump: "option2"
   },
   { 
@@ -56,11 +54,9 @@ let story = [
   { 
     text: "But I guess the real Santa is a man." 
   },
-  {
-    receiveJump: "option3"
-  },
   { 
-    choicesExist: true, 
+    choicesExist: true,
+    receiveJump: "option3"
   },
   {
     routeBegins: "I think we got our man!",
