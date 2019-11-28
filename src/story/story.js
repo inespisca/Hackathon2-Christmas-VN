@@ -7,14 +7,13 @@ const Santa = "Santa Claus";
 const Narrator = "";
 const You = "You";
 // sprites
-const bn = require("./sprites/block-neutral.png");
-const bh = require("./sprites/block-happy.png");
-const bp = require("./sprites/block-pout.png");
+const InesSprite = require("./sprites/InesSprite.png");
 
 let story = [
   {
     bg: santaclaus,
     speaker: Ines,
+    sprite: InesSprite,
     text: "Hey, nice to meet you!"
   },
   {
