@@ -9,11 +9,11 @@ function TitleScreen(props) {
         <div id="subtitle">Wild Code School, Lisbon (September 2019 fulltime)</div>
         <ul id="menu">
           <li>
-            <span onClick={props.beginStory}>Begin</span>
+            <span onClick={props.beginStory}>Let's Start</span>
           </li>
           <li>
           <span>
-              <a href="https://github.com/nashkenazy/generic-vn" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/inespisca/Hackathon2-Christmas-VN">
                 Github
               </a>
             </span>
