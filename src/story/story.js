@@ -1,5 +1,5 @@
 // bg
-const santaclaus = require("./bg/santaclaus.jpg");
+const santaclaus = require("./bg/city.png");
 // speakers
 const Ines = "Inês";
 const Woman = "Woman";
