@@ -32,8 +32,8 @@ var choices = [
     choices: [
       {
         store: "Not really, isn’t Santa Claus a man?",
-        routeBegins: "It’ll happen like it did with the woman",
-        content: "It’ll happen like it did with the woman",
+        routeBegins: "The same will happen again",
+        content: "The same will happen again",
         nextIndex: 3
       },
       {

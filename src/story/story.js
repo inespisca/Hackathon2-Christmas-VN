@@ -173,7 +173,7 @@ let story = [
   },
   // Bad end 3
   { 
-    routeBegins: "It’ll happen like it did with the woman",
+    routeBegins: "The same will happen again",
     speaker: Ines,
     text: "You’re right, not all men are Santa Claus",
   },
