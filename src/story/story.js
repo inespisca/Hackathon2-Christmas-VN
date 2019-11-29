@@ -64,10 +64,10 @@ let story = [
     text: "A man dressed up as Santa Claus passes by." 
   },
   { 
+    speaker: Ines,
     text: "Could that be… The real Santa Claus?" 
   },
   { 
-    speaker: Ines,
     text: "Should we ask him?" 
   },
   { 
@@ -86,7 +86,7 @@ let story = [
     text: "Inês! You recognized me!" 
   },
   { 
-    text: "Because this was a great year, the both of you deserve your gifts!" 
+    text: "This was a great year, so you and that person you're talking to deserve your gifts!" 
   },
   { 
     speaker: Narrator,
@@ -129,6 +129,7 @@ let story = [
 // Bad end 1
   { 
     routeBegins: "No",
+    speaker: Ines,
     text: "Alright, thank you anyway. I’ll go ask somebody else then."
   },
   { 
@@ -143,6 +144,7 @@ let story = [
 // Bad end 2
   { 
     routeBegins: "Oh you’re right, she could be Santa!",
+    speaker: Ines,
     text: "Thank you! I’ll go ask her if she is Santa",
   },
   { 
@@ -163,7 +165,7 @@ let story = [
   },
   { 
     speaker: Narrator,
-    text: "This isn’t a bad end but it feels like one.",
+    text: "Welcome to bad end 2.",
   },
   {
     text: "This path is over. Click again to go back to the menu.",
@@ -194,7 +196,7 @@ let story = [
   },
   { 
     speaker: Santa,
-    text: "Yes I am. And you are… Umm… Inês?" 
+    text: "Yes I am. And you are… Inês?" 
   },
   { 
     speaker: Ines,
@@ -206,11 +208,11 @@ let story = [
   },
   { 
     speaker: You,
-    text: "I want a gift too!" 
+    text: "I want a gift!" 
   },
   { 
     speaker: Santa,
-    text: "You’re who told Inês I wasn’t Santa. You are definitely on my naughty list."
+    text: "You’re the one who told Inês I wasn’t Santa. You are definitely on my naughty list as well."
   },
   {
     speaker: Narrator,
