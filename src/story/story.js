@@ -51,8 +51,24 @@ let story = [
     text: "Though even women dress up as Santa Claus sometimes too."
   },
 
+  {
+    speaker: Narrator,
+    text: "Inês looks around." 
+  },
   { 
-    text: "But I guess the real Santa is a man." 
+    speaker: Ines,
+    text: "There isn't one single man around though." 
+  },
+  { 
+    speaker: Narrator,
+    text: "A man dressed up as Santa Claus passes by." 
+  },
+  { 
+    text: "Could that be… The real Santa Claus?" 
+  },
+  { 
+    speaker: Ines,
+    text: "Should we ask him?" 
   },
   { 
     choicesExist: true,
@@ -97,6 +113,13 @@ let story = [
   {
     speaker: Ines,
     text: "Yay!",
+  },
+  {
+    speaker: Narrator,
+    text: "Congratulations, you reached the good end of this story.",
+  },
+  {
+    text: "Click once more to go to the menu.",
     jumpTo: "title-screen" 
   },
 
